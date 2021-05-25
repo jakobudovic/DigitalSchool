@@ -1,0 +1,74 @@
+body{
+	margin: 0 auto ;
+	max-width: 300px ;
+	font-family: 'KoHo', sans-serif;
+	}
+
+h1{
+	color: #43abbc ;
+	text-align: center;
+}
+
+p{
+	color: #abcaef ;
+	border: dotted 2px #e7b7f2 ;
+	padding: 10px;
+	background: #f7eafa;
+}
+
+div{
+	bottom-margin: 100px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 500px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#f7eafa;
+  min-width: 160px;
+  padding:0px 9px;
+  z-index: 1;
+  border:dotted 3px #e7b7f2;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a,ul {
+	color: #abcaef;
+}
+
+a{
+	text-decoration: none;
+
+}
+
+.naslov{
+	color: #43abbc;
+	cursor: context-menu;
+}
+
+footer{
+	background-color:#fdf6fe;
+	margin-top: 70px;
+	text-align: center;
+	color: #bbd9f1;
+	padding:0px 100px;
+}
+
+.gif{
+	position: absolute; left: 20%;
+	border :solid 3px #e7b7f2;
+}
+
+img{
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
