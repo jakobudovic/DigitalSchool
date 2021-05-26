@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Top Ten (10) Best Video Games</title>
+		<link href='https://fonts.googleapis.com/css?family=Libre Caslon Text' rel='stylesheet'>
+		<style>
+			/* <style> WAS ENTIRELY USED FROM https://jgthms.com/web-design-in-4-minutes/#spacing (I HAVE FORGOTTEN A LOT OF STUFF OVER THE COURSE OF PROGRAMMING CLASS) */
+			/* <style> WAS ENTIRELY USED FROM https://jgthms.com/web-design-in-4-minutes/#spacing (I HAVE FORGOTTEN A LOT OF STUFF OVER THE COURSE OF PROGRAMMING CLASS) */
+			/* <style> WAS ENTIRELY USED FROM https://jgthms.com/web-design-in-4-minutes/#spacing (I HAVE FORGOTTEN A LOT OF STUFF OVER THE COURSE OF PROGRAMMING CLASS) */
+			/* <style> WAS ENTIRELY USED FROM https://jgthms.com/web-design-in-4-minutes/#spacing (I HAVE FORGOTTEN A LOT OF STUFF OVER THE COURSE OF PROGRAMMING CLASS) */
+			/* <style> WAS ENTIRELY USED FROM https://jgthms.com/web-design-in-4-minutes/#spacing (I HAVE FORGOTTEN A LOT OF STUFF OVER THE COURSE OF PROGRAMMING CLASS) */
+			@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+			body {
+				margin: 0 auto;
+				max-width: 50em;
+				line-height: 1.5;
+				padding: 4em 1em;
+				color: #566b78;
+				font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+			}
+
+			h2 {
+				margin-top: 1em;
+				padding-top: 1em;
+			}
+			h1,
+			h2,
+			strong {
+				color: #333;
+			}
+			code,
+			pre {
+				background: #f5f7f9;
+				border-bottom: 1px solid #d8dee9;
+				color: #a7adba;
+			}
+			code {
+				padding: 2px 4px;
+				vertical-align: text-bottom;
+			}
+			pre {
+				padding: 1em;
+				border-left: 2px solid #69c;
+			}
+			a {
+				color: #e81c4f;
+			}
+			header {
+				background-color: #263d36;
+				background-image: url("header.jpg");
+				background-position: center top;
+				background-repeat: no-repeat;
+				background-size: cover;
+				line-height: 1.2;
+				padding: 10vw 2em;
+				text-align: center;
+			}
+			header img {
+				display: inline-block;
+				height: 120px;
+				vertical-align: top;
+				width: 120px;
+			}
+			header h1 {
+				color: white;
+				font-size: 2.5em;
+				font-weight: 300;
+			}
+			header a {
+				border: 1px solid #e81c4f;
+				border-radius: 290486px;
+				color: white;
+				font-size: 0.6em;
+				letter-spacing: 0.2em;
+				padding: 1em 2em;
+				text-transform: uppercase;
+				text-decoration: none;
+				transition: none 200ms ease-out;
+				transition-property: color, background;
+			}
+			header a:hover {
+				background: #e81c4f;
+				color: white;
+			}
+			/* ta stil sem dodal samo zato, da se vidi kje se nahaja skriti tekst */
+			#container {
+				border: 1px solid;
+			}
+			/* tukaj nastavis privzeto "stanje" -> tekst naj bo neviden/skrit */
+			#mojskrittekst {
+				opacity: 0;
+			}
+			/* ko uporabnik hovera z misko cez nas element z tekstom -> tekst naj bo spet viden */
+			/* NOTE: ce zelis se lahko malo igras in poskusis namesto vrednosti 1 napisati katerokoli vrednost med 0 in 1, kaj se bo zgodilo ? */
+			#mojskrittekst:hover {
+				opacity: 1;
+			}
+		</style>
+		<script>
+			// o javascriptu se nismo se nic ucili, tako da ne skrbi ce nebos razumel
+			// lahko poskusis prebrati komentarje in uporabiti na svoji strani ce ti uspe
+			// dodatno razlago spodnje kode, lahko najdes na teh povezavah:
+			// - https://www.w3schools.com/js/js_functions.asp
+			// - https://www.w3schools.com/js/js_htmldom_methods.asp
+			// - https://www.w3schools.com/jsref/met_win_settimeout.asp
+
+			// v javascriptu moramo najprej "poiskati" nas html element z skritim tekstom
+			const mojTekst = document.getElementById('mojskrittekst');
+			// ko ga poiscemo, mu dodamo "listener" (oz "poslusalca na dogodge"), ki nas bo obvestil, ko bo uporabnik sel z misko cez ta nas element (angl.: "mouseover")
+			// takrat se bo sprozila "funkcija" onHover (izvedla se bo vsa koda od 9. vrstice naprej)
+			mojTekst.addEventListener('mouseover', onHover);
+			function onHover() {
+				// ko bo uporabnik hoveral cez nas tekst, ga moramo najprej narediti vidnega
+				// isto kot da bi v css-ju napisal: #moj-skrit-tekst {opacity: 1}
+				mojTekst.style.opacity = 1; 
+				// dolocimo cez koliko casa se bo izveedla spodnja koda
+				const IZVEDI_CEZ_MS = 2000;
+				// spodnja koda se bo izvedla cez 3000 milisekund = 1 sekunda
+				setTimeout(() => {
+					// ko pretece IZVEDI_CEZ_MS casa najprej nazaj skrijemo nas tekst  
+					// isto kot da bi v css-ju napisal: #moj-skrit-tekst {opacity: 0}
+					mojTekst.style.opacity = 0;    
+					// SPODAJ SO NAVODILA KAKO ZAPRETI/PONOVNO NALOZITI STRAN
+					// NOTE: najverjetneje to nebo delovalo v codepenu
+					// ce hoces ponovno naloziti stran
+					// vec o tem: https://stackoverflow.com/questions/3715047/how-to-reload-a-page-using-javascript
+					// window.location.reload();    
+					// ce hoces zapreti zavihek
+					// vec o tem: https://stackoverflow.com/questions/2076299/how-to-close-current-tab-in-a-browser-window
+					// window.close();
+				}, IZVEDI_CEZ_MS)
+			}
+		</script>
+	</head>
+
+
+	<body>
+		<h1>Top 10 Best Video Games</h1>
+		<h2>A (Bad) Site By Timotej Đ.</h2>
+		<ol reversed="reversed">
+			<li>Number 10: <b>Geometry Dash</b></li>
+				Geometry Dash, a rythm based game, is known for it's autoscroller gameplay and big fanbase. It's played by clicking only one button: your left mouse button. The game is made by RobTop, also known as Robert Topala, who is still being pressured into releasing the 2.2 version of the game. The game hasn't been updated in 3 years if I remember correctly. Anyway, in my opinion the game is pretty fun to play if you like rythm based games. (The game is only about $4 on Steam, so)
+			<li>Number 9: <b>Bloons TD 6</b></li>
+				Bloons TD 6 is a game developed by Ninja Kiwi and is $20 on Steam. The game is about you placing towers (or in this case monkeys) on a field next to a path. Balloons will start to float on the path and try to escape through the other end of the path. Your job is to stop them. You have a variety of monkeys / towers available and upgradable. In this version of the game, the 6th version, the monkeys / towers have 3 instead of 2 upgrade paths. The upgrade paths now reach up to 5 tiers instead of 4. Bloons TD 6 is way more full of gameplay than Bloons TD 5. I would recommend the game if you like tower defense games or monkeys.
+			<li>Number 8: <b>Bloons Monkey City</b></li>
+				Bloons Monkey city is another Tower Defense game made by Ninja Kiwi. This game, however, is very old and hasn't been update recently, the latest update being on 7th April, 2015. You start off with a small village of monkeys that is surrounded by attacks from bloons. The village can expand, but you need to beat the balloons that occupy a certain space (or tile) before you get to place another building there. You unlock towers by buying their building in the shop with coins you earn from defeating balloons and placing the building anywhere on an empty tile. The upgrades for the towers also have to be unlocked, and that is via buying the tower's upgrade building that you only need to buy one of. Bloons Monkey City is a free game on Steam.
+			<li>Number 7: <b>Leaf Blower Revolution</b></li>
+				Leaf Blower Revolution is an Idle game developed by Humble North. It's a game where you blow leaves off the screen. Seems simple right? WRONG. During the early stages of the game, yes, it is just "get money, upgrade, get money, upgrade." However, when you reach mid-game stages it gets very complex. For example, there are different types of leaves. You have normal leaves, golden leaves, platinum leaves, bismuth leaves, cosmic leaves, void leaves, even. But that doesn't stop there. When completing most of the last blow-away-able leaf you need to start converting them. How do you convert them? Prestiging. By prestigin you earn coins which you need to buy converters. Converters will convert void leaves to re flasks, which then need to be converted to green flasks, that then need to be converted to blue flasks etc. Once you get to black flasks you need to convert those to strange flasks which are worth 10x as much as a normal flask. I'm running the game in the background for Celestial leaves as I write this. Leaf Blower Revolution is a free game on Steam.
+			<li>Number 6: <b>Osu!</b></li>
+				Osu! is another rythm based game. Yes, I like rythm based games. Anyway, Osu! is a game where you have a song and you must hit notes according to the rythm or according to what the song's creator has made. Osu! has a couple of gamemodes: <i>Osu!</i>, <i>Osu!mania</i>, <i>Catch The Beat</i> and <i>Taiko</i>. The most popular and my personal favourite gamemode is Osu!. You have your cursor and buttons start appearing. They have little rings around them telling you when to click on them. Simple. You also have sliders which are buttons you hold on to and follow them on a certain path. You can download Osu! <a href="https://osu.ppy.sh/home" target="_blank">here</a>.
+			<li>Number 5: <b>Deep Rock Galactic</b></li>
+				Deep Rock Galactic, also refered to as DRG is a multiplayer co-op game developed by Ghost Ship Games. The game revolves around four people going underground to complete a certain mission. There are four available and playable characters, one for each player. You have Gunner, Scout, Driller and Engineer. Each class has some sort of pro and con. The game is $20 on Steam with occasional discounts.
+			<li>Number 4: <b>Brawlhalla</b></li>
+				Brawlhalla, a game also known as "fake Super Smash Bros", is a two-dimensional fighting game. Players spawn on a platform and have to fight eachother with specific weapons, two assigned to each character, and deal the most damage as possible. There's two types of attacks: heavy and light. Both heavy and light attacks have three types to each other: neutral, side and down (neutral light, side light, down light, neutral heavy, side heavy, down heavy). There's also aerial attacks: Aerial neutral light, aerial down light, aerial side light, ground pound, recovery. The game is most fun to play if you're playing with people you know. The game is free on Steam, while also available on mobile devices and consoles for free.
+			<li>Number 3: <b>Portal</b> and <b>Portal 2</b></li>
+				Portal is a puzzle game for PC on Steam. Both games aren't free, ranging from $10-$20. They include - as you might've expected - portals. The game has many mechanics you don't see in a lot of games. Portal 2 is the most fun to play with a friend since it supports co-op. Both players have to use their portals a specific way to proceed to the next level.
+			<li>Number 2: <b>Turnip Boy Commits Tax Evasion</b></li>
+				What a game TBCTE is. TBCTE is currently $10 on Steam with approximately 3-10 hours of gameplay (dpeneding on how skilled you are). The game is about you, Turnip Boy, committing tax evasion and repaying the tax evasion by being the town mayor's assistant. Your task is to bring him several different items that he can use for... a project. TBCTE is very fun to play if you're bored in quarantine or are jsut genuinely looking for a new game to play.
+			<li>Number 1: <b>Damn I ran out of games to enlist</b></li>
+		</ol>
+
+		<span id="container">
+			<span id="mojskrittekst" style="font-size: 100px;">Your mom B)</span>
+		</span>
+	</body>
+</html>
