@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html id="lok">
-<head><link rel="icon" type="image/x-icon" href="./favicon.png" />
-	<title></title>
+<head>
+<link rel="stylesheet" type="html/css" href="./bolek.css">
+<link rel="icon" type="image/x-icon" href="./favicon.png" />
 </head>
-<body onkeydown="myFunction(event)">
-	
-	<div class="dropdown">
-  <span><hr> 
+<body  onload="yFunction()" onkeydown="myFunction(event)">
+
+<div class="dropdown">
+  <span><hr>
 <div class="lol">
 	<ul>
-		<li><a class="pol" href="./BOBEK.HTML">DOMOV</a></li>
-		
+		<li><a id="pol" href="./index.html">DOMOV</a></li>
+
 </hr>
 </span>
   <div class="dropdown-content">
     <p>
-    	<span><hr> 
+    	<span><hr>
 <div class="fup">
 	<ul>
 		<br><li><a class="plak" href="./a.html">kaj rabiš vedeti</a></br></li>
@@ -30,42 +31,26 @@
 </div>
 </div>
 <summary>
-<script type="text/javascript">
-	function myFunction(event) {
-  var x = event.key;
 
-  
-  if (x == "a" || x == "A") { 
-    alert ("BRAVO ODKRIL SI A");
-    var element = document.getElementById("lok");
-   element.classList.add("cj");
-   
-  }
-  if (x == "b" || x == "B") {
-  	 alert ("BRAVO ZNAS ABECEDO");
-  	var element = document.getElementById("lok");
-   element.classList.add("cp");
-  }
-}</script>
 <div class="ropdown">
-  <span><hr> 
+  <span><hr>
 <div class="lo">
 	<ul>
-		<li><a class="kol" href="./rumen.html">VSI PRIMERI</a></li>
-		
+		<li><a id="kol" href="./rumen.html">VSI PRIMERI</a></li>
+
 </hr>
 </span>
   <div class="ropdown-content">
     <p>
-    	<span><hr> 
+    	<span><hr>
 <div class="cup">
 	<ul>
 		<br><li><a class="pl" href="./e.html">spoofing</a></br></li>
 		<br><li><a class="tp" href="./g.html">spyware</a></li></br>
 			<br><li><a class="ca" href="./h.html">napad zavrnitve storitve</a>
 			</br></li>
-			
-		
+
+
 		</ul>
 </hr></span></p>
   </div>
@@ -75,41 +60,64 @@
 </sumarry>
 
 <div class="opdown">
-  <span><hr> 
+  <span><hr>
 <div class="lo">
 	<ul>
-		<li><a class="pool" href="./rd.html">LEGENDE(wiki mucki)</a></li>
-		
+		<li><a id="pool" href="./rd.html">LEGENDE(wiki mucki)</a></li>
+
 </hr>
 </span>
   <div class="opdown-content">
     <p>
-    	<span><hr> 
+    	<span><hr>
 <div class="tup">
 	<ul>
-		
+
 			<br><li><a class="o" href="./i.html">Znani hekerji</a>
 			</br></li>
 			<br><li><a class="ko" href="./j.html">Nenznani hekerji</a>
 			</br></li>
 			<br><li><a class="fo" href="./k.html">Najbolši heker</a>
 			</br></li>
-			
+
 		</ul>
 </hr></span></p>
   </div>
 </div>
 </div>
 </div>
-<summary><h1>Tukaj si verjetno zaradi različnih razlogov npr. hekanje hudi sosedi v kamero, želiš zasačiti kdo ti krade časopis (ponavadi sosed ali pes), lahko si tukaj iz maščevanja...
-	AMPAK MORAŠ VEDETI, DA TO DELAŠ NA LASTNO ODGOVORNOST JaS NE BOM PRIČAL PROTI NITI NE BOM ZANIKAL TVOJA DEJANJA TEBI TEORETIČNO NE POMAGAM!!!!!!!!!!!!!</h1></summary>
-<div class="card">
-    	<img src="./do.gif" alt="Card Back">
-        <img src="./L.png" class="img-top" alt="Card Front">
-    </div>
-<img src="https://assets.entrepreneur.com/content/3x2/2000/1589313176-GettyImages-1127637966.jpg?width=700&crop=2:1">
 
-<p><a class="nodi"href="./m.html"> certifikat</a></p>
+<script>
+	function yFunction(event){
+		var element = document.getElementById("pool");
+   element.classList.add("pool");
+   var element = document.getElementById("pol");
+   element.classList.add("pol");
+   var element = document.getElementById("kol");
+   element.classList.add("kol");
+	}
+function myFunction(event) {
+  var x = event.key;
+
+
+  if (x == "a" || x == "A") {
+    alert ("BRAVO ODKRIL SI A");
+    var element = document.getElementById("lok");
+   element.classList.add("cj");
+
+  }
+  if (x == "b" || x == "B") {
+  	 alert ("BRAVO ZNAS ABECEDO");
+  	var element = document.getElementById("lok");
+   element.classList.add("cp");
+  }
+}
+
+</script>
+
+<img id="cp" src="https://fsb.zobj.net/crop.php?r=gyR6HiH3jVKcMAAGanGqF12iWxa2-sVDzHR18Ks1FD7AE5icbxi8dicmIQRAKv2nxuqXNAPzFQgDUZWiUU3zO_2sBKcwyfv24XSyEYtHZb3L0PQmC1oFprYhQRhj0LaXMVH2Rg79ltG_q_qq">
+
+<p><a class="nodi"href="./m.html">Certifikat</a></p>
 <a class="bob"href="./y.html">kontakt</a>
 <br><a class="tale" href="./lojzekkk.html">Če hočete še kaj se obrnete na lojzeta</a></br>
 <style type="text/css">
@@ -117,29 +125,16 @@
 		transform: rotate(90deg);
    }
       .cj {
-  
+
   transform: rotate(4500deg);
 }
-	.card {
-        width: 195px;
-        height: 195px;
-        position: relative;
-        display: inline-block;
-        margin: 50px;
-    }
-    .card .img-top {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
-    .card:hover .img-top {
-        display: inline;
-    }
+	.ch{
+
+	}
+
 	.o
 	{
-		color:red;
+		color: red;
 	}
 	.ko
 	{
@@ -191,13 +186,13 @@
 	}
 	h3{
 		color: red;
-		
+
 	}
 	p{
 	border-style: solid;
 	border-color: blue;
 	border-width: 3px;}
- 
+
  img{
  	width: 100%;
  	height: 100%;
@@ -205,15 +200,15 @@
 
 
 ul {
-  
+
   list-style-type: none;
-  
+
   padding: 0;
   margin: 0;
 }
 html{
 	background-color: black;
-	text-decoration-color: red;
+
 }
 
 
@@ -231,7 +226,7 @@ li a.active {
 }
 body {
   margin: 0;
-}  
+}
 
 summary {
   text-align: center;
@@ -247,7 +242,7 @@ summary {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:black;
+  background-color: #8CAC89B;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
@@ -266,7 +261,7 @@ summary {
 .ropdown-content {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: #8CAC89B;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
@@ -280,7 +275,7 @@ summary {
   position: relative;
   display: inline-block;
   left:610px;
-  margin:; 
+  margin:;
   padding:;
 
 }
@@ -288,7 +283,7 @@ summary {
 .opdown-content {
   display: none;
   position: absolute;
-  background-color:black ;
+  background-color:#8CAC89B ;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
@@ -304,7 +299,7 @@ summary {
 }
 .kol{
 	color:yellow;
-	
+
 }
 
 .pol{
@@ -313,18 +308,6 @@ summary {
 
 
 }
-
-	img{
-		width: 100%;
-		height:100%;
-	}
-	html{
-		background: black;
-
-	}
-	h1{
-		color: white;
-	}
 </style>
 </body>
 </html>
