@@ -1,0 +1,16 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+  }
+  h1 {
+    color: gold;
+  }
+  head {
+    margin: 0 auto;
+    max-width: 50em;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
