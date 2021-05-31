@@ -1,0 +1,26 @@
+.JONCI {
+    background-color:black;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    margin-bottom:0px;
+    padding-right:0px;
+    padding-left:0px;
+    font-size: 30px;
+  }
+body {
+background-image: url('https://st2.depositphotos.com/7953572/10738/i/600/depositphotos_107383032-stock-photo-multipurpose-can-be-used-background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+waw {
+  overflow: scroll;
+}
+lo {
+  position: absolute;
+  right:0;
+}
