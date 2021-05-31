@@ -1,0 +1,27 @@
+h2 {
+  text-decoration: underline;
+  text-shadow: 5px 5px 8px rgb()
+}
+
+h3 {
+   border: 3px solid rgb(27, 209, 76);
+  outline-style: dotted;
+  outline-color: rgb(50, 135, 73) ;
+}
+
+#mib {
+  background-color: pink;
+}
+
+div {
+
+  border : 1.9px solid grey;
+
+  background-color : lightgrey;
+  margin-top: 500px;
+  margin-left: 90px;
+  margin-right: 700px;
+  margin-bottom: 50px;
+
+}
+
