@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    color: black;
+  }
+  h2 {
+    text-align: left;
+    color: #dcdedc;
+    font-family: 'Codystar', cursive;
+  }
+  body {
+    background-color: #169020;
+  }
+  .text {
+    font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+  }
+  a {
+    color: #9ed69c;
+  }
+  a:hover {
+    color: #22c9be;
+  }
+  a:active {
+    color: blue;
+  }
+  a:visited {
+    color: #000000;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+  body {
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+  .back {
+    text-align: center;
+    font-size: 20px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
