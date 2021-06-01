@@ -19,14 +19,17 @@ h1 {
 
 a {
   text-decoration: none !important;
-}
-
-a:hover li {
-  background-color: lightcoral;
+  display: block;
+  padding: 0.5rem 1rem;
 }
 
 li.parent {
   pointer-events: none;
+  transition: background-color 0.7s ease-out;
+}
+
+.list-group-item {
+  padding: 0 !important;
 }
 
 a.child {
@@ -34,5 +37,6 @@ a.child {
 }
 
 li.parent:hover {
-  background: lightblue;
+  background-color: lightblue;
+
 }
