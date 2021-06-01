@@ -6,6 +6,13 @@ body {
   margin: 0 auto !important;
   max-width: 50em !important;
   background-color: grey;
+  padding: 0 2em;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
 
 h1 {
@@ -38,5 +45,14 @@ a.child {
 
 li.parent:hover {
   background-color: lightblue;
+}
 
+.push {
+  height: 150px;
+}
+
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
 }
