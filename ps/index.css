@@ -1,0 +1,10 @@
+#home {
+    padding: 0;
+}
+
+body {
+    margin: 0 auto !important;
+    max-width: 50em !important;
+    background-color: red;
+    padding: 0 2em;
+}

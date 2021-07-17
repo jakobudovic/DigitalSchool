@@ -5,7 +5,7 @@
 body {
   margin: 0 auto !important;
   max-width: 50em !important;
-  background-color: grey;
+  background-color: red;
   padding: 0 2em;
 }
 
@@ -55,4 +55,8 @@ li.parent:hover {
   padding: 20px;
   min-height: 100%;
   margin: 0 auto -50px;
+}
+
+#poletna-sola {
+  padding: 0;
 }
