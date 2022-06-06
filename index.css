@@ -15,6 +15,15 @@ body {
   margin: 0;
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  color: white;
+}
+
 h1 {
   font-family: "Source Code Pro", monospace !important;
 }
@@ -45,10 +54,6 @@ a.child {
 
 li.parent:hover {
   background-color: lightblue;
-}
-
-.push {
-  height: 150px;
 }
 
 .content {
