@@ -1,0 +1,31 @@
+  <div id="table">
+      <table class="imghvr-flip-horiz">
+        <tr>
+          <td><figure><img class="nfts" id=1nft src="1nft.png"></td>
+            <p>dwaddw</p></tr></figure>
+            td><figure><img class="nfts" id=1nft src="1nft.png"></td>
+              <p>dwaddw</p></tr></figure>
+        </tr>
+        <tr>
+          td><figure><img class="nfts" id=1nft src="1nft.png"></td>
+            <p>dwaddw</p></tr></figure>
+            td><figure><img class="nfts" id=1nft src="1nft.png"></td>
+              <p>dwaddw</p></tr></figure>
+        </tr>
+      </table>
+
+ .imghvr-flip-horiz{
+    border:transparent;
+    height: 1030px;
+    width: 1020px;
+    animation:zoomIn; 
+    animation-duration: 1s;
+    display: flex;
+    justify-content: center
+        ;}
+ th, td {
+        border: 1px solid black;
+        border-radius: 20px;
+        border-collapse:collapse;
+      }
+

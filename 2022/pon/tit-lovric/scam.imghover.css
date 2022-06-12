@@ -1,0 +1,55 @@
+.imghvr-shutter-in-out-diag-2:after, .imghvr-shutter-in-out-diag-2:before {
+    width: 200%;
+    height: 200%;
+    transition: all 0.6s ease;
+    opacity: 0.75;
+    background-color: #ddb892;
+}
+
+.imghvr-shutter-in-out-diag-2:after {
+    -webkit-transform: skew(45deg) translateX(-100%);
+            transform: skew(45deg) translateX(-100%);
+}
+
+.imghvr-shutter-in-out-diag-2:before {
+    -webkit-transform: skew(45deg) translateX(100%);
+            transform: skew(45deg) translateX(100%);
+}
+
+.imghvr-shutter-in-out-diag-2:hover:after {
+    -webkit-transform: skew(45deg) translateX(0%);
+            transform: skew(45deg) translateX(0%);
+}
+
+.imghvr-shutter-in-out-diag-2:hover:before {
+    -webkit-transform: skew(45deg) translateX(0%);
+            transform: skew(45deg) translateX(0%);
+}
+_______________________________________________________________
+.imghvr-shutter-in-out-diag-1:after, .imghvr-shutter-in-out-diag-1:before {
+    width: 200%;
+    height: 200%;
+    transition: all 0.6s ease;
+    opacity: 0.75;
+    background-color: #EXample
+}
+
+.imghvr-shutter-in-out-diag-1:after {
+    -webkit-transform: skew(-45deg) translateX(-150%);
+            transform: skew(-45deg) translateX(-150%);
+}
+
+.imghvr-shutter-in-out-diag-1:before {
+    -webkit-transform: skew(-45deg) translateX(150%);
+            transform: skew(-45deg) translateX(150%);
+}
+
+.imghvr-shutter-in-out-diag-1:hover:after {
+    -webkit-transform: skew(-45deg) translateX(-50%);
+            transform: skew(-45deg) translateX(-50%);
+}
+
+.imghvr-shutter-in-out-diag-1:hover:before {
+    -webkit-transform: skew(-45deg) translateX(50%);
+            transform: skew(-45deg) translateX(50%);
+}
