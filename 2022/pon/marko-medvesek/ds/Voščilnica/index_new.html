@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!-- Counter By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Voščilnica</title>
+      <link rel="stylesheet" href="counter.css">
+      <link rel="stylesheet" href="snowflakes.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Pacifico&display=swap" rel="stylesheet">
+      <style>
+        span {
+          font-family: 'Dancing Script', cursive;
+          font-size: 10vh;
+        }
+      </style>
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="title">
+            <span>Vesel božič in<br> srečno novo leto</span>
+         </div>
+         <p>Do božiča še:</p>
+         <div class="count-down">
+            <div class="timer day">
+               <div class="count">
+                  <div class="numb">
+                     00
+                  </div>
+                  <div class="text">
+                     Dni
+                  </div>
+               </div>
+            </div>
+            <div class="clone">
+               :
+            </div>
+            <div class="timer hour">
+               <div class="count">
+                  <div class="numb">
+                     00
+                  </div>
+                  <div class="text">
+                     Ur
+                  </div>
+               </div>
+            </div>
+            <div class="clone">
+               :
+            </div>
+            <div class="timer min">
+               <div class="count">
+                  <div class="numb">
+                     00
+                  </div>
+                  <div class="text">
+                     Minut
+                  </div>
+               </div>
+            </div>
+            <div class="clone">
+               :
+            </div>
+            <div class="timer sec">
+               <div class="count">
+                  <div class="numb">
+                     00
+                  </div>
+                  <div class="text">
+                     Sekund
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+      </div>
+      <script>
+         const day = document.querySelector(".day .numb");
+         const hour = document.querySelector(".hour .numb");
+         const min = document.querySelector(".min .numb");
+         const sec = document.querySelector(".sec .numb");
+         var timer = setInterval(()=>{
+           var currentDate = new Date().getTime();
+           var launchDate = new Date('Dec 25, 2021 00:00:00').getTime();
+           var duration = launchDate - currentDate;
+           var days = Math.floor(duration / (1000 * 60 * 60 * 24));
+           var hours = Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+           var minutes = Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60));
+           var seconds = Math.floor((duration % (1000 * 60)) / 1000);
+           day.innerHTML = days;
+           hour.innerHTML = hours;
+           min.innerHTML = minutes;
+           sec.innerHTML = seconds;
+           if(days < 10){
+             day.innerHTML = '0' + days;
+           }
+           if(hours < 10){
+             hour.innerHTML = '0' + hours;
+           }
+           if(minutes < 10){
+             min.innerHTML = '0' + minutes;
+           }
+           if(seconds < 10){
+             sec.innerHTML = '0' + seconds;
+           }
+           if(duration < 0){
+             clearInterval(timer);
+           }
+         }, 1000);
+      </script>
+   </body>
+</html>

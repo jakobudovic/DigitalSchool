@@ -1,0 +1,23 @@
+.cursive {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+#fav1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.fantasy {
+  font-family: "Impact", fantasy;
+}
+#fav2 {
+  font-family: Chalkduster, fantasy;
+}
+
+/* online font */
+
+@font-face {
+  font-family: mojaPisava;
+  src: url(imeFonta.woff);
+}
+
+div {
+  font-family: mojaPisava;
+}

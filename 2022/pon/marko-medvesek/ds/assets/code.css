@@ -1,0 +1,9 @@
+code {
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 1px 5px;
+}
+code:hover {
+  transition: 0.3s;
+  background-color: darkgray;
+}

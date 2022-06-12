@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tabele</title>
+    <link rel="stylesheet" href="../assets/navbar.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <style>
+    * {
+      font-family: Arial;
+    }
+    table, th, td {
+      border-collapse: collapse;
+      text-align: center;
+    }
+    table, td {
+      padding: 10px;
+    }
+    th {
+      border: 1px solid;
+      background-color: lightgreen;
+    }
+    tr:nth-child(even) {
+      background-color: #F2F2F2;
+    }
+    tr:nth-child(odd) {
+      background-color: #D3D3D3;
+    }
+    small {
+      font-weight: normal;
+    }
+    table {
+            width: 500px;
+            height: auto;
+            border: 2px solid;
+    }
+    .dnevi {
+      padding: 10px;
+      background-color: lightgreen !important;
+    }
+  </style>
+  <body>
+    <ul class="navbar">
+       <a href="../index.html" class="navbar"><li class="navbar"><span class="material-icons">home</span></li></a>
+       <span class="navbar-arrow" onclick="history.back()"><li class="navbar"><span class="material-icons">arrow_back</span></li></a>
+       <a href="#" class="navbar"><li class="navbar-active">Tabele</li></a>
+    </ul>
+    <br>
+    <h1>Tabele</h1>
+    <p>Značke tabele</dp>
+    <ul>
+      <li>table = tabela</li>
+      <li>tr = table row</li>
+      <li>th = table header</li>
+      <li>td = table data</li>
+      <li>caption = naslov</li>
+    </ul>
+    <table align="center">
+      <caption><h2>Urnik</h2></caption>
+
+      <tr class="dnevi">
+        <td><b><sub>ura</sub> \ <sup>dan</sup></b></td>
+        <th>Ponedeljek</th>
+        <th>Torek</th>
+        <th>Sreda</th>
+        <th>Četrtek</th>
+        <th>Petek</th>
+      </tr>
+      <tr>
+        <th>0. ura<br>
+          <small>7:40 - 8:25</small>
+        </th>
+        <td></td>
+        <td></td>
+        <td>NEM</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>1. ura<br>
+          <small>8:30 - 9:15</small>
+        </th>
+        <td>RU</td>
+        <td>SLO</td>
+        <td>BIO</td>
+        <td>FIZ</td>
+        <td>MAT</td>
+      </tr>
+      <tr>
+        <th>2. ura
+          <br>
+            <small>9:20 - 10:05</small></th>
+        <td>BIO</td>
+        <td>KEM</td>
+        <td>TIT</td>
+        <td>DKE</td>
+        <td>KEM</td>
+      </tr>
+      <tr>
+        <th>3. ura<br>
+          <small>10:20 - 11:05</small>
+        </th>
+        <td>SLO</td>
+        <td>MAT</td>
+        <td>TJA</td>
+        <td>SLO</td>
+        <td>ŠPO</td>
+      </tr>
+      <tr>
+        <th>4. ura<br>
+          <small>11:15 - 12:00</small>
+        </th>
+        <td>MAT</td>
+        <td>TJA</td>
+        <td>GEO</td>
+        <td>MAT</td>
+        <td>TJA</td>
+      </tr>
+      <tr>
+        <th>5. ura<br>
+          <small>12:05 - 12:50</small>
+        </th>
+        <td>ZGO</td>
+        <td>ŠPO</td>
+        <td>FIZ</td>
+        <td>GUM</td>
+        <td>LUM</td>
+      </tr>
+      <tr>
+        <th>6. ura<br>
+          <small>12:55 - 13:40</small>
+        </th>
+        <td></td>
+        <td>ZGO</td>
+        <td>SLO</td>
+        <td>RMM</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>7. ura<br>
+          <small>13:45 - 14:30</small>
+        </th>
+        <td></td>
+        <td>NEM</td>
+        <td>ŠPO</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>

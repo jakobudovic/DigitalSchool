@@ -1,0 +1,67 @@
+table {
+  border: solid black 1px;
+}
+
+td {
+  padding: 3px;
+  border: solid 1px olive;
+  text-align: center;
+}
+
+span.li1 {
+  padding-left:24px;
+  font-size: 20px
+}
+
+#tabela {
+  border: solid black 1px;
+  /* padding: 6px 2px; */
+  width: 200px;
+  height: 83px;
+}
+
+span.elementTabele {
+  padding: 3px;
+  border: solid 1px olive;
+  text-align: center;
+}
+
+.main {
+  font-weight: bold;
+}
+
+#vrstica1 {
+  padding: 6px 2px;
+}
+#vrstica2 {
+  padding: 3px 2px;
+}
+#vrstica3 {
+  padding: 6px 2px;
+}
+#povezava {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+code {
+  background-color: lightgray;
+  border-radius: 2px;
+  padding: 2px 6px;
+}
+
+#koda {
+  background-color: lightgray;
+  border-radius: 2px;
+  padding: 2px 6px;
+  font-family: monospace;
+}
+
+#subscript {
+  vertical-align: sub;
+  font-size: smaller;
+}
+#mark {
+  background-color: yellow;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PotiDoSlike</title>
+        <link rel="stylesheet" href="../assets/code.css">
+        <link rel="stylesheet" href="../assets/navbar.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/navbar.css">
+        <style>
+          p {
+            margin: 0;
+          }
+          img {
+            padding: 10px 0;
+            width: 500px;
+          }
+          .nizek-p {
+            margin-top: 5px;
+          }
+          ol {
+        text-align: center;
+        list-style-position: inside;
+      }
+      footer {
+        text-align: center;
+        padding: 3px;
+        background-color: olive;
+        color: white;
+        position: relative;
+      }
+        </style>
+  </head>
+  <body>
+    <ul class="navbar">
+       <a href="../index.html" class="navbar"><li class="navbar"><span class="material-icons">home</span></li></a>
+       <span class="navbar-arrow" onclick="history.back()"><li class="navbar"><span class="material-icons">arrow_back</span></li></a>
+       <a href="#" class="navbar"><li class="navbar-active">Poti do slik</li></a>
+    </ul>
+    <br>
+    <div class="main-content" align="center">
+      <h1>Lokacije slik</h1>
+      <p>6 različnih načinov dostopanja do slik</p>
+      <ol>
+        <p>Seznam:</p>
+        <li><a href="#1">Remote slika na spletu</a></li>
+        <li><a href="#2">Lokalna slika s potjo do slike iz trenutne lokacije</a></li>
+        <li><a href="#3">Lokalna slika s potjo do slike iz trenutne lokacije, ampak krajše</a></li>
+        <li><a href="#4">Lokalna slika v isti mapi kot .html datoteka</a></li>
+        <li><a href="#5">Lokalna slika v isti mapi kot .html datoteka, ampak krajše</a></li>
+        <li><a href="#6">Lokalna slika z najdaljšo obliko dostopanja do slike</a></li>
+      </ol>
+        <div id="1">
+          <h2>1. Remote slika na spletu (CDN)</h2>
+          <img src="https://www.audi.com//content/dam/gbp2/experience-audi/models-and-technology/concept-cars/q4-e-tron-concept/1920x1920_A192564_large.jpg?imwidth=599&amp;imdensity=1%22" alt="Mangart">
+          <p>Neka slika shranjena na nekem tujem strežniku, nad katerim mi nimamo nadzora.</p>
+          <p class="nizek-p">Pogled v kodo:</p>
+          <p class="nizek-p"> src="<code>https://www.audi.com//content/dam/gbp2/experience-audi/models-and-technology/concept-cars/q4-e-tron-concept/1920x1920_A192564_large.jpg?imwidth=599&amp;imdensity=1%22</code>"</p>
+          <br>
+        </div>
+        <div id="2">
+        <h2>2. Lokalna slika s potjo do slike iz trenutne lokacije</h2>
+          <img src="./img/car_2.png" alt="lokalna relativna pot do slike">
+          <p>Slika shranjena na lokalnem računalniku, vendar v podmapi.</p>
+          <p class="nizek-p">Pogled v kodo:</p>
+          <p class="nizek-p"> src="<code>./img/car_2.png</code>"</p>
+          <br>
+        </div>
+        <div id="3">
+          <h2>2.1 Lokalna slika s potjo do slike iz trenutne lokacije, ampak krajše</h2>
+          <img src="img/car_3.png" alt="lokalna relativna pot do slike">
+            <p class="nizek-p">Ista stvar kot <a href="#2">zgornji primer</a> samo, da je brez <code>./</code> (krajša oblika).</p>
+            <p class="nizek-p">Pogled v kodo:</p>
+            <p> src="<code>img/car_3.png</code>"</p>
+            <br>
+        </div>
+        <div id="4">
+          <h2>3. Lokalna slika v isti mapi kot .html datoteka</h2>
+          <img src="./car_1.png" alt="lokalna relativna pot do slike">
+          <p>Slika shranjena na lokalnem računalniku v isti mapi, kot html datoteka.</p>
+            <p class="nizek-p">Pogled v kodo:</p>
+            <p class="nizek-p"> src="<code>./car_1.png</code>"</p>
+        </div>
+        <br>
+        <div id="5">
+          <h2>3.1 Lokalna slika v isti mapi kot .html datoteka, ampak krajše</h2>
+          <img src="car_4.png" alt="lokalna relativna pot do slike">
+            <p><a href="#4">Zgornji primer</a> samo na krajše, brez <code>./</code> (krajša oblika).</p>
+            <p class="nizek-p">Pogled v kodo:</p>
+            <p class="nizek-p"> src="<code>car_4.png</code>"</p>
+        </div>
+        <br>
+        <div id="6">
+          <h2>4. Lokalna slika z najdaljšo obliko dostopanja do slike</h2>
+          <!--<img src="file:///home/marko/Desktop/WebSite/img/car_6.png" alt="Lokalna (absolutna) pot do slike">-->
+          <img src="img/car_6.png" alt="Lokalna (absolutna) pot do slike">
+          <p>Najdaljša pot do slike, saj natančno določi njeno lokacijo na lokalnem disku. <i>(Ponavadi uporabljeno kadar želimo določiti pot izven primarnega diska <b>C:</b> ).</i></p>
+            <p class="nizek-p">Pogled v kodo:</p>
+            <p class="nizek-p"> src="<code>file:///home/uporabnik/Desktop/SpletnaStran/img/car_6.png</code>"</p>
+        </div>
+      </div>
+      <footer>
+        <p>Avtor: Marko M<br>
+        <p>For educational purposes only! I do NOT own any of the images above.</p>
+        <a href="mailto:info@slovenski.tech">info@slovenski.tech</a></p>
+      </footer>
+  </body>
+</html>

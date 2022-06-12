@@ -1,0 +1,157 @@
+<link rel="stylesheet" href="../assets/navbar.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!DOCTYPE html>
+<!-- Counter By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Voščilnica</title>
+      <link rel="stylesheet" href="counter.css">
+      <link rel="stylesheet" href="snowflakes.css">
+      <link rel="stylesheet" href="../assets/navbar.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="gumb.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Pacifico&display=swap" rel="stylesheet">
+      <style>
+        span {
+          font-family: 'Dancing Script', cursive;
+          font-size: 10vh;
+        }
+        * {
+          box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          height: 300px; /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+          }
+        }
+      </style>
+   </head>
+   <body>
+     <ul class="navbar">
+        <a href="../index.html" class="navbar"><li class="navbar"><span class="material-icons">home</span></li></a>
+        <span class="navbar-arrow" onclick="history.back()"><li class="navbar"><span class="material-icons">arrow_back</span></li></span>
+        <a href="#" class="navbar"><li class="navbar-active">Voščilnica</li></a>
+     </ul>
+     <br>
+      <div class="wrapper">
+         <div class="title">
+            <span>Vesel božič in<br> srečno novo leto</span>
+         </div>
+         <br>
+         <p>Do novega leta še:</p>
+         <div class="count-down">
+            <div class="timer day">
+               <div class="count">
+                  <div class="numb">
+                     00
+                  </div>
+                  <div class="text">
+                     Dni
+                  </div>
+               </div>
+            </div>
+            <div class="clone">
+               :
+            </div>
+            <div class="timer hour">
+               <div class="count">
+                  <div class="numb">
+                     00
+                  </div>
+                  <div class="text">
+                     Ur
+                  </div>
+               </div>
+            </div>
+            <div class="clone">
+               :
+            </div>
+            <div class="timer min">
+               <div class="count">
+                  <div class="numb">
+                     00
+                  </div>
+                  <div class="text">
+                     Minut
+                  </div>
+               </div>
+            </div>
+            <div class="clone">
+               :
+            </div>
+            <div class="timer sec">
+               <div class="count">
+                  <div class="numb">
+                     00
+                  </div>
+                  <div class="text">
+                     Sekund
+                  </div>
+               </div>
+            </div>
+         </div>
+         <img src="smrekica.png" style="max-width:300px;">
+       </div>
+    <input type="button" class="gumb" value="Klikni me" onclick="play()" style="-webkit-text-stroke: 1px black;
+  ">
+    <audio id="audio" src="merry-christmas-you-filthy-animal-and-a-happy-new-year.mp3"></audio>
+      <script src="script.js"></script>
+
+      <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+      </div>
+      <script>
+
+      </script>
+   </body>
+</html>

@@ -1,0 +1,29 @@
+.gumb{
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 5px;
+  background: transparent;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+/*  width: 30%;
+  height: 5%;*/
+  width: 200px;
+  height: 60px;
+  font-size: 2em;
+  opacity: .7;
+  bottom: 5vh;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  transition: .3s;
+}
+
+.gumb:hover{
+  border: 2px solid #104F55;
+  background-color: rgba(365,365,365,0.5);
+  cursor: pointer;
+  color: #104F55;
+  transition: .3s;
+  opacity: .9;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

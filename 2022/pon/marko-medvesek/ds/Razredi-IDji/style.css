@@ -1,0 +1,12 @@
+p {
+  color: darkgreen;
+}
+
+#zadnji {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p:nth-child(even) {
+  color: rgb(255,0,0);
+}
