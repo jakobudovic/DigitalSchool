@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blagajna</title>
+	<link rel="stylesheet" type="text/css" href="final_project.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+#h1_hrana {
+	width: 175px;
+	height: 125px;
+background: radial-gradient(circle, rgba(0,200,255,1) 0%, rgba(80,0,120,1) 100%);
+border: 1px cyan solid;
+border-radius: 25%;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+#wrapper {
+	display: flex;
+}
+
+#hrana {
+	padding-right: 10px;
+}
+
+#h1_pijaca {
+	width: 175px;
+	height: 125px;
+background: radial-gradient(circle, rgba(0,200,255,1) 0%, rgba(80,0,120,1) 100%);
+border: 1px cyan solid;
+border-radius: 25%;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+#pijaca {
+	padding-right: 10px;
+}
+
+#h1_lov {
+	width: 175px;
+	height: 125px;
+background: radial-gradient(circle, rgba(0,200,255,1) 0%, rgba(80,0,120,1) 100%);
+border: 1px cyan solid;
+border-radius: 25%;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+
+#lov {
+  padding-right: 15px;
+}
+
+
+#narocilo {
+background: radial-gradient(circle, rgba(0,200,255,1) 0%, rgba(80,0,120,1) 100%);
+color: white;
+border-radius: 5%;
+width: 300px;
+height: 200px;
+  font-size: 23px;
+}
+
+#h1_izpis {
+  width: 175px;
+  height: 125px;
+background: radial-gradient(circle, rgba(0,200,255,1) 0%, rgba(80,0,120,1) 100%);
+border: 1px cyan solid;
+border-radius: 25%;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+#h1_vabe {
+    width: 175px;
+  height: 125px;
+background: radial-gradient(circle, rgba(0,200,255,1) 0%, rgba(80,0,120,1) 100%);
+border: 1px cyan solid;
+border-radius: 25%;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+#vabe {
+  padding-right: 10px;
+}
+
+#aboutme {
+	width: 100px;
+	height: 75px;
+background: radial-gradient(circle, rgba(0,200,255,1) 0%, rgba(80,0,120,1) 100%);
+	border: cyan solid 1px;
+	border-radius: 20%;
+	font-size: 15px;
+}
+
+	</style>
+</head>
+<body style="background: white;">
+
+
+<div id="wrapper">
+	<div id="hrana">
+		<h1 id="h1_hrana">Hrana</h1>
+		<button id="food1" class="button-64" role="button"><span class="text">Tunin stake 8€</span></button>
+		<button id="food2" class="button-64" role="button"><span class="text">Fish and chips 10€</span></button>
+		<button id="food3" class="button-64" role="button"><span class="text">Girice 6€</span></button>
+		<button id="food4" class="button-64" role="button"><span class="text">Ocvrti oslič 9€</span></button>
+		<button id="food5" class="button-64" role="button"><span class="text">Ocvrti lignji 11€</span></button>
+		<button id="food6" class="button-64" role="button"><span class="text">Lovke hobotnice 9€</span></button>
+		<button id="food7" class="button-64" role="button"><span class="text">Kos torte 3€</span></button>
+		<button id="food8" class="button-64" role="button"><span class="text">Ribiška rezina 2€</span></button>
+	</div>
+	<div id="pijaca">
+		<h1 id="h1_pijaca">Pijaca</h1>
+		<button id="drink1" class="button-64" role="button"><span class="text">Blue lagoon 2€</span></button>
+		<button id="drink2" class="button-64" role="button"><span class="text">Sex on the beach 2€</span></button>
+		<button id="drink3" class="button-64" role="button"><span class="text">Pinacolada 2€</span></button>
+		<button id="drink4" class="button-64" role="button"><span class="text">Mojito 2€</span></button>
+		<button id="drink5" class="button-64" role="button"><span class="text">Voda 1€</span></button>
+		<button id="drink6" class="button-64" role="button"><span class="text">Sladki muškat 3€</span></button>
+		<button id="drink7" class="button-64" role="button"><span class="text">Red bull 3€</span></button>
+		<button id="drink8" class="button-64" role="button"><span class="text">Ledeni čaj 1€</span></button>
+		<button id="drink9" class="button-64" role="button"><span class="text">Refošk 3€</span></button>
+	</div>
+		<div id="lov">
+		<h1 id="h1_lov">lov rib</h1>
+		<button id="fish1" class="button-64" role="button"><span class="text">Ribiška palica 60€</span></button>
+		<button id="fish2" class="button-64" role="button"><span class="text">Vaba za ribe 14€</span></button>
+		<button id="fish3" class="button-64" role="button"><span class="text">Ribiško dovoljenje 250€</span></button>
+	</div>
+	<div id="vabe">
+		<h1 id="h1_vabe">Vabe</h1>
+		<button id="fish4" class="button-64" role="button"><span class="text">Vaba za ribe 25x</span></button>
+		<button id="fish5" class="button-64" role="button"><span class="text">Vaba za ribe 50x</span></button>
+		<button id="fish6" class="button-64" role="button"><span class="text">Vaba za ribe 100x</span></button>
+	</div>
+	<div id="izpis_narocila">
+		<h1 id="h1_izpis">Narocilo</h1>
+		<div id="wrapper2">
+<button id="button1" class="button-64" role="button"><span class="text">Natisni račun</span></button>
+<button id="button2" class="button-64" role="button"><span class="text">Natisni naročilo</span></button>
+<p id="narocilo"></p>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a id="a1" href="aboutme/aboutme.html"><button id="aboutme"><span class="text">About me</span></button></a>
+
+</body>
+<script type="text/javascript">
+	
+
+
+//     			  food
+	var narocilo = document.getElementById('narocilo');
+	var tuna = document.getElementById('food1');
+	var chips = document.getElementById('food2');
+	var girice = document.getElementById('food3');
+	var oslič = document.getElementById('food4');
+	var lignji = document.getElementById('food5');
+	var hobotnica = document.getElementById('food6');
+	var torta = document.getElementById('food7');
+	var rezina = document.getElementById('food8');
+	var cena = 0;
+	var spisek = "ㅤ";
+	
+
+tuna.onclick = function fun1() {
+	console.log("test1");
+	cena = cena + 8;
+	spisek = spisek + "Tunin stakeㅤ";
+}
+chips.onclick = function fun2() {
+	console.log("test2");
+	cena = cena + 10;
+	spisek = spisek + "Fish and chipsㅤ";
+}
+girice.onclick = function fun3() {
+	console.log("test3");
+	cena = cena + 6;
+	spisek = spisek + "Giriceㅤ";
+}
+oslič.onclick = function fun4() {
+	console.log("test4");
+	cena = cena + 9;
+	spisek = spisek + "Ocvrti osličㅤ";
+}
+lignji.onclick = function fun5() {
+	console.log("test5");
+	cena = cena + 11;
+	spisek = spisek + "Ocvrti lignjiㅤ";
+}
+hobotnica.onclick = function fun6() {
+	console.log("test6");
+	cena = cena + 9;
+	spisek = spisek + "Lovke hobotniceㅤ";
+}
+torta.onclick = function fun7() {
+	console.log("test7");
+	cena = cena + 3;
+	spisek = spisek + "Kos torteㅤ";
+}
+rezina.onclick = function fun8() {
+	console.log("test8");
+	cena = cena + 2;
+	spisek = spisek + "Ribiška rezinaㅤ";
+}
+//			drinks
+
+	var lagoon = document.getElementById('drink1');
+	var beach = document.getElementById('drink2');
+	var pinacolada = document.getElementById('drink3');
+	var mojito = document.getElementById('drink4');
+	var voda = document.getElementById('drink5');
+	var muškat = document.getElementById('drink6');
+	var bull = document.getElementById('drink7');
+	var čaj = document.getElementById('drink8');
+	var refošk = document.getElementById('drink9');
+
+lagoon.onclick = function fun2_1() {
+	console.log("1");
+	cena = cena + 2;
+	spisek = spisek + "Blue lagoonㅤ";
+}
+beach.onclick = function fun2_2() {
+	console.log("2");
+	cena = cena + 2;
+	spisek = spisek + "Sex on the beachㅤ";
+}
+pinacolada.onclick = function fun2_3() {
+	console.log("3");
+	cena = cena + 2;
+	spisek = spisek + "Pinacoladaㅤ";
+}
+mojito.onclick = function fun2_4() {
+	console.log("4");
+	cena = cena + 2;
+	spisek = spisek + "Mojitoㅤ";
+}
+voda.onclick = function fun2_5() {
+	console.log("5");
+	cena = cena + 1;
+	spisek = spisek + "Vodaㅤ";
+}
+muškat.onclick = function fun2_6() {
+	console.log("6");
+	cena = cena + 3;
+	spisek = spisek + "Sladki muškatㅤ";
+}
+bull.onclick = function fun2_7() {
+	console.log("7");
+	cena = cena + 3;
+	spisek = spisek + "Red bullㅤ";
+}
+čaj.onclick = function fun2_8() {
+	console.log("8");
+	cena = cena + 1;
+	spisek = spisek + "Ledeni čajㅤ";
+}
+refošk.onclick = function fun2_9() {
+	console.log("9");
+	cena = cena + 3;
+	spisek = spisek + "Refoškㅤ";
+}
+
+//     			  lov rib
+
+	var palica = document.getElementById('fish1');
+	var vaba = document.getElementById('fish2');
+	var dovoljenje = document.getElementById('fish3');
+	var vaba25 = document.getElementById('fish4');
+	var vaba50 = document.getElementById('fish5');
+	var vaba100 = document.getElementById('fish6');
+
+palica.onclick = function fun3_1() {
+	console.log("hi1");
+	cena = cena + 60;
+	spisek = spisek + "Ribiška palicaㅤ";
+}
+vaba.onclick = function fun3_2() {
+	console.log("hi2");
+	cena = cena + 14;
+	spisek = spisek + "Vaba za ribeㅤ";
+}
+dovoljenje.onclick = function fun3_3() {
+	console.log("hi3");
+	cena = cena + 250;
+	spisek = spisek + "Ribiško dovoljenjeㅤ";
+}
+vaba25.onclick = function fun4_1() {
+	console.log("hi4");
+	cena = cena + 25*14;
+	spisek = spisek + "Vaba za ribe 25xㅤ";
+}
+vaba50.onclick = function fun4_2() {
+	console.log("hi5");
+	cena = cena + 50*14;
+	spisek = spisek + "Vaba za ribe 50xㅤ";
+}
+vaba100.onclick = function fun4_3() {
+	console.log("hi6");
+	cena = cena + 100*14;
+	spisek = spisek + "Vaba za ribe 100xㅤ";
+}
+
+
+
+
+
+//------------------------------------------
+var gumbcena = document.getElementById("button1");
+var gumbspisek = document.getElementById('button2');
+
+gumbcena.onclick = function racun() {
+window.alert(cena);
+  spisek = "ㅤ";
+  cena = 0;
+}
+
+gumbspisek.onclick = function() {
+	narocilo.innerHTML = spisek;
+}
+
+
+
+
+</script>
+  </html>
