@@ -41,17 +41,16 @@ print(f"konec whila")
 
 
 """
-1.
+4.
 Range
 """
 
 """
-2.
+5.
 Lists
 """
 
-
 """
-5.
-Continue
+6.
+Double loops
 """
