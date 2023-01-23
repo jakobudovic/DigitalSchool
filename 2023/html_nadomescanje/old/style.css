@@ -1,0 +1,93 @@
+header {
+	color: red;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 100px;
+
+}
+
+body {
+	background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+article {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+}
+
+li {
+	display: inline;
+}
+
+
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-size: 20px;
+	margin: 20px;
+
+}
+ img {
+ 	width: 20%;
+ }
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border: 2px solid #813A7D;
+	background-color: #F6EDEB;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li {
+	float: left;
+	border-right: 2px solid #813A7D;
+
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.desno {
+	float: right;
+}
+
+div {
+	color:red;
+}
+
+
+
+.active {
+	background-color: #8fcbdb;
+	color: white;
+}
+
+li a {
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	background-color: #F6EDEB;
+
+}
+
+li a:hover {
+	color: black;
+	background-color: gray;
+}
+
+header {
+	margin-top: 30px;
+	font-size: 28px;
+	font-weight: bold;
+}
