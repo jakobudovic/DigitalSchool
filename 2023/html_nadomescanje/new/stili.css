@@ -1,0 +1,25 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/978/304/original/beautiful-watercolor-colorful-rainbow-background-free-vector.jpg");
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul li {
+    background-color: lightskyblue;
+    padding: 16px;
+}
+
+
+ul li a {
+    background-color: lightskyblue;
+    text-decoration: none;
+}
+
+ul li:hover {
+    background-color: orange;
+    cursor: pointer;
+}
