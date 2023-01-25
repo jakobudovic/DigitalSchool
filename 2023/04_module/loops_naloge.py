@@ -106,15 +106,15 @@ Primer:
 """
 
 
-i = 0
-while i < 60:
-    i += 1
-    if i % 5 == 0:
-        # Izpis veckratnika stevila 5
-        print(f"     {i}")
-    else:
-        # Izpis ne-veckratnika stevila 5
-        print(f"{i}")
+# i = 0
+# while i < 60:
+#     i += 1
+#     if i % 5 == 0:
+#         # Izpis veckratnika stevila 5
+#         print(f"     {i}")
+#     else:
+#         # Izpis ne-veckratnika stevila 5
+#         print(f"{i}")
 
 
 """
@@ -139,6 +139,50 @@ The sum is: 5050
 5 ... 15
 10 ... 55
 20 ... 210
-24 ... 276
+24 ... 276 # 300
 100 ... 5050
 """
+
+# Andraz & Luka
+# num = int(input("Enter a number: "))
+
+# if num < 0:
+#     print("Enter a positive number")
+# else:
+#     sum = 0
+#     # use while loop to iterate un till zero
+#     while num > 0:  # 5, 4, 3, 2, 1, 0
+#         sum += num
+#         num -= 1
+#     print("The sum is", sum)
+
+# # Jan
+# number = int(input("Vpisi stevilko: "))
+# sum = 0
+# for value in range(1, number + 1): # 1, 2, 3, 4, 5
+#     sum += value
+# print(sum)
+
+# Luka
+# num = int(input("Enter number."))
+# if num < 0:
+#     print("Enter a positive number")
+# else:
+#     sum = 0
+#     while num > 0:
+#         sum += num
+#         num -= 1
+#     print("The sum is", sum)
+
+# # Peter
+# number = int(input("Enter the number: "))
+# sum = 0
+# for value in range(1, number + 1):
+#     sum += value
+# print(sum)
+
+# Mark
+# vars = [int(input("Enter number: ")), 0]
+# for num in range(vars[0]):
+#     vars[1] += num + 1
+# print(vars[1])
