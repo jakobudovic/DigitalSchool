@@ -43,3 +43,10 @@ pozdrav("Jan")
 pozdrav("Tim")
 pozdrav("Jon")
 pozdrav("Jakob")
+
+
+"""
+Poimenovanje funkcij
+1. mojaFunkcija() # camel case
+2. moja_funkcija() # snake case
+"""
