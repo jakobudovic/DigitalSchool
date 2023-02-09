@@ -84,14 +84,20 @@ Lists
 # for sestavina in sestavine:
 #     print(f"{sestavina}")
 
-# ocene = [
-#     [5, 4, 5, 3],
-#     [3, 2, 2],
-#     [5, 5, 4, 5, 2],
-# ]
-
 
 """
 6.
 Double loops
 """
+ocene = [
+    [5, 4, 5, 3],
+    [3, 2, 2],
+    [5, 5, 4, 5, 2],
+]
+
+for seznam_ocen in ocene:
+
+    for ocena in seznam_ocen:
+        print(f"{ocena}", end=", ")
+
+    print(f"")
