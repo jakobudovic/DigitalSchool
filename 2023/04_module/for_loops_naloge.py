@@ -18,14 +18,16 @@ Input: 3
 1 
 1 2 
 1 2 3 
-1 2 3 4 
-1 2 3 4 5
+
+# 1 2 3 4 
+# 1 2 3 4 5
 """
-for vrstica in range(1, 4):
-    print(f"vrstica {vrstica}")
-    for j in range(1, 4):
-        print(f"{j}", end=" ")
-    print(f"")
+# n = int(input("Vnesi n: "))
+# for vrstica in range(1, n + 1):  # 1, 2, 3
+#     # print(f"vrstica: {vrstica}"
+#     for j in range(1, vrstica + 1):  # [1], [1, 2], [1, 2, 3]
+#         print(f"{j}", end=" ")
+#     print(f"")
 
 
 """
@@ -54,6 +56,7 @@ Enter number: 2
 """
 5. 
 Display numbers from a list using loop
+numbers = [12, 75, 150, 180, 145, 525, 50]
 """
 
 """
@@ -110,6 +113,17 @@ Kaj je fibonacci series?
 The Fibonacci Sequence is a series of numbers. The next number is found by adding up the two numbers before it. 
 The first two numbers are 0 and 1.
 """
+
+# # 0, 1, 1, 2, 3, 5, 8, 13, 21, 34,..
+# a = 0
+# b = 1
+
+# x = None
+
+# rez = a + b
+# print(rez)
+# a = b
+# b = rez
 
 """
 12.*
