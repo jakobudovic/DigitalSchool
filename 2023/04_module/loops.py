@@ -47,7 +47,7 @@ Range
 def range(start=0, stop, step=1)
 """
 
-# Why range ?
+# # Why range ?
 # num = 0
 # while num < 10:
 #     print(num)
@@ -96,8 +96,9 @@ ocene = [
 ]
 
 for seznam_ocen in ocene:
+    # seznam_ocen = [5, 4, 5, 3]
 
     for ocena in seznam_ocen:
         print(f"{ocena}", end=", ")
 
-    print(f"")
+    print()
