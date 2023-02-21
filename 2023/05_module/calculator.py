@@ -1,12 +1,37 @@
 """
-Naredi program, ki sprejme dve stevili in operator, 
-ter vrne rezultat racuna teh dveh stevil z operatorjem.
-Program mora podpirati vsaj +, -, * in /
-Bonus funkcionalnosti: %, //, **
+Naredi 4 funkcije, ki sprejmejo 2 stevili in vrnejo njuno 
+- vsoto
+- razliko
+- zmnozek 
+- kolicnik
+
+potenca a^b; npr. a^5 = a * a * a * a * a
+koren b - stopnja korena, a - tisto kar se koreni.
+celostevilsko deljenje (//)
+ostanek pri deljenju (%)
 """
 
-# izracunaj(3, 6, "*")  # 18
+
+def vsota(a, b):
+    return a + b
+
+
+def razlika(a, b):
+    return a - b
+
+
+"""
+Naredi funkcijo, ki sprejme dve stevili in operator, 
+ter vrne rezultat racuna teh dveh stevil z operatorjem.
+Program mora podpirati vsaj +, -, * in /
+Bonus funkcionalnosti: %, //, **, koren
+"""
+
+# izracunaj(-2, 7, "+")  # 5
 # izracunaj(18, 6, "-")  # 12
+# izracunaj(3, -6, "*")  # -18
+# izracunaj(45, 3, "/")  # 15
+# izracunaj(3, 12, "*")  # 35
 
 
 def vsota(a, b):
@@ -33,20 +58,10 @@ def izracunaj(a, b, operator):
     elif operator == "koren":
         return koren(a, b)
     else:
-        print(f"Operacija {operator} ni podprta.")
+        print(f"Operacija '{operator}' ni podprta.")
 
 
 print(izracunaj(5, 2, "+"))
 print(izracunaj(5, 2, "**"))
 print(izracunaj(9, 2, "koren"))
 print(izracunaj(9, 2, "&"))
-
-# ime = "Jakob"
-# age = 23
-# naj_igrice = ["gtaV", "amogus", "ovecooked"]
-# print("Zivjo ime mi je " + ime + " In star si" + str(age) + ".")
-# print("Zivjo ime mi je", ime, "In star si", age, ".")
-# print(f"Zivjo ime mi je {ime} in star si {age}. Cez 5 let bos star {age + 5}")
-# print(f"Najljubsa igrica je {naj_igrice[0]}")
-
-# print(f"{age}")
