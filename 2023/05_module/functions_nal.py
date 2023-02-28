@@ -3,9 +3,12 @@
 """
 
 
-def add_nums(num1, num2):
-    return num1 + num2
+# def add_nums(num1, num2):
+#     return num1 + num2
 
+
+# rez = add_nums(3, 5)
+# print(rez)
 
 """
 2. Write a function that takes in a list of numbers and returns the average.
@@ -21,6 +24,10 @@ Hint: string ni nic drugega kot seznam characterjev.
 4.
 Write a Python function called is_palindrome that takes a string as input and returns True if the string is a palindrome (i.e., reads the same backward as forward), and False otherwise. 
 For example, if the input string is "racecar", the function should return True.
+jan != naj
+jakob != bokaj
+ana = ana
+racecar = racecar
 """
 
 """
