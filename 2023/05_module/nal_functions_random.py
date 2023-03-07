@@ -32,11 +32,6 @@ def vrni_nakljucno(num):
 3. Napisi funkcijo, ki vrne nakljucno sodo stevilo od 1 do 50.
 """
 
-
-def veckratnik5(num):
-    pass
-
-
 """
 4. Napisi funkcijo, ki vrne nakljucno stevilo od 1 do 50, 
 ki je hkrati veckratnik stevila 5.
@@ -52,12 +47,11 @@ ki je hkrati veckratnik stevila 5.
 """
 
 """
-7. Ali si za zgornji 2 nalogi res potreboval 2 posebni funkciji, 
-ali lahko kaj recikliras?
+7. Ali si za zgornji 2 nalogi res potreboval 2 posebni funkciji, ali lahko kaj od njiju recikliras?
 """
 
 """
-8. Uporabi funkcijo random.choice() na dveh primerih.
+8. Uporabi funkcijo random.choice() na dveh primerih in jih zapisi spodaj.
 Kaksen tip argumenta sprejme?
 Pomagaj si z googlom oz. dokumentacijo.
 """
