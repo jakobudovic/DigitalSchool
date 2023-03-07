@@ -34,6 +34,14 @@ racecar = racecar
 5. Write a function that takes in a string and returns a dictionary with the count of each letter in the string.
 """
 
+# def prestej_crke(string):
+#     return {}
+
+
+# prestej_crke("beseda1")
+# prestej_crke("beseda2")
+# prestej_crke("beseda3")
+
 """
 6. Write a function that takes in a list of integers and returns the largest and smallest numbers in the list.
 def find_min_max([5, 1, 45, 12, -56, 22, 18])
@@ -41,6 +49,15 @@ def find_min_max([5, 1, 45, 12, -56, 22, 18])
 Out:
 print(45, -56)
 """
+
+
+# def find_min_max(seznam):
+#     najmanjsi = seznam[0]  # vzame prvi element
+#     najvecji = seznam[1]  # vzame drugi element
+#     return najmanjsi, najvecji
+
+
+# najmanjsi, najvecji = find_min_max([1, 5, -2])
 
 """
 7. Write a function that takes in two lists of integers and returns a new list with the common elements between the two lists.
