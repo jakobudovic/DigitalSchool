@@ -16,3 +16,26 @@ print("Ugibaj glavna mesta!")
 ugib = input("Ugani glavno mesto Hrvaske: ")
 preveri_odgovor(ugib, "Zagreb", tocke)
 """
+
+tocke = 0
+
+
+def preveri_odgovor(ugib, odgovor, tocke):
+    if ugib.lower() == odgovor.lower():
+        tocke = tocke + 1
+        print(f"Odgovor je pravilen!")
+    else:
+        # Ne povecas
+        print(f"Odgovor je napacen :(")
+    return tocke
+
+
+print("Ugibaj glavna mesta!")
+ugib = input("Ugani glavno mesto Hrvaske: ")
+tocke = preveri_odgovor(ugib, "Zagreb", tocke)  # shrani novo vrednost tock !!
+
+ugib = input("Ugani glavno mesto Slovenije: ")
+tocke = preveri_odgovor(ugib, "Ljubljana", tocke)  # shrani novo vrednost tock !!
+
+
+print(f"total points: {tocke}")
