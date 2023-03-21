@@ -15,6 +15,11 @@ def preveri_odgovor(ugib, odgovor, tocke):
 print("Ugibaj glavna mesta!")
 ugib = input("Ugani glavno mesto Hrvaske: ")
 preveri_odgovor(ugib, "Zagreb", tocke)
+
+1. Ce je vprasanje, ali zna delfin plavati in uporabnik odgovori z DA ali Da,
+ali bo v obeh primerih dobil tocke?
+2. Now let's make this program more interesting by allowing 
+the users to guess three (3) times in one question.
 """
 
 tocke = 0
