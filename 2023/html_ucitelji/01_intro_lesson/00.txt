@@ -1,0 +1,33 @@
+Day1
+- intro to course
+- overview of previous year's work ethics/methods
+- history of HTML
+- Introduction, Text Editors, HTML Basic, HTML Element Structure
+
+Day2
+- HTML Attributes, Paragraphs, Formatting, Quotations, Comments
+
+Day3
+HTML Links, Images, Picture, Gifs, Bookmarks
+HTML Image as link, Mail to, Tel, Image Maps
+
+-- -- --
+
+HTML Attributes, Paragraphs, Formatting, Quotations, Comments
+
+HTML Attributes: We should explain to students what attributes are and how they can be used to modify HTML elements. 
+We can demonstrate this with a simple example of adding the "style" attribute to an HTML element, such as changing the background 
+color of a paragraph. We can then ask students to modify the style of different HTML elements using various attributes.
+
+Paragraphs: We should explain the importance of using paragraphs in HTML and how to create them using the <p> tag. We can then 
+demonstrate how to modify the appearance of paragraphs using the "style" attribute, such as changing the font size or color. 
+We can ask students to create a simple webpage using paragraphs and modify their appearance using attributes.
+
+Formatting: We should explain how to format text using HTML tags such as <strong>, <em>, and <u>. We can demonstrate how to use 
+these tags to make text bold, italic, or underlined. We can then ask students to format text on their webpage using these tags.
+
+Quotations: We should explain how to add quotations to HTML using the <q> tag. We can demonstrate how to use this tag to create 
+a quotation and ask students to add a quotation to their webpage.
+
+Comments: We should explain how to add comments to HTML code using the <!-- --> syntax. We can demonstrate how to use comments to 
+explain code to other developers and ask students to add comments to their webpage code.

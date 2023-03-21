@@ -1,0 +1,4 @@
+- HTML Headings, Paragraphs
+- HTML Attributes, Paragraphs, Formatting, Quotations, Comments (25 minutes)
+- HTML Links, Images, Picture, Gifs, Bookmarks (30 minutes)
+- HTML Image as link, Mail to, Tel (35 minutes)
