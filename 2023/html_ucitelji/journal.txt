@@ -1,0 +1,12 @@
+Day1 (10.3.)
+- intro to course
+- overview of previous year's work ethics/methods
+- history of HTML
+- Introduction, Text Editors, HTML Basic, HTML Element Structure
+
+Day2 (10.3.)
+- HTML Attributes, Paragraphs, Formatting, Quotations, Comments
+
+Day3 (24.3.)
+- HTML Links, Images, Picture, Gifs, Bookmarks (multi page)
+- HTML Image as link, Mail to, Tel, Image Maps (skip)
