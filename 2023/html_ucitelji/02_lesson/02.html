@@ -4,18 +4,66 @@
     <title>My First HTML Page</title>
   </head>
   <body>
+
+    <h1>Table of contents</h1>
+    <a href="#images">Images</a><br>
+    <a href="#pictures">Picture</a><br>
+
     <h1>Links</h1>
+    <!-- Absolutna pot -->
     <a href="https://www.google.com/">Link to Google</a>
-    <h1>Images</h1>
+    <br>
+    <a href="https://www.24ur.com/">Link do 24 ur</a>
+    <br>
+    <a href="https://usdebtclock.org/" target="_blank">Povezava</a>
+    <br>
+    <br>
+    <!-- Relativna pot -->
+    <a href="02_about.html">About subpage</a>
+
+    <h1 id="images">Images (3 examples)</h1>
     <img src="https://www.w3schools.com/images/picture.jpg" alt="Picture">
+    <br>
+    <!-- Absolutna pot -->
+    <a href="https://en.wikipedia.org/wiki/Munich">
+      <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_800,c_fill,q_85/Mobile/City/xxm5eghz6vaayblixclj.jpg" height="300px" alt="slika minhna">
+    </a>
+    <br>
+    <!-- Relativna pot -->
+    <img src="images/munc.jpg" height="300px" alt="slika minhna ponoci">
+
+    <h1 id="pictures">Picture</h1>
+    <picture>
+      <source media="(min-width:750px)" srcset="images/cat.jpg" height="400px">
+      <source media="(min-width:565px)" srcset="images/mouse.webp" height="300px">
+      <img src="images/ds_logo.png" alt="DS logo" height="200px">
+    </picture>
+
     <h1>Gifs</h1>
     <img src="https://www.w3schools.com/html/html5.gif" alt="HTML5 Gif">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
     <h1>Bookmarks</h1>
     <a href="#top">Go to top of page</a>
+
+    <h1>Mailto & tel</h1>
+    <a href="mailto:test@gmail.com">Send me an email!</a>
+    <br>  
+    <a href="tel:+38641123123">Give me a call!</a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
   </body>
 </html>
-
-<!--
-    Example/Exercise: Have students create a webpage with at least two links, two images, 
-    and a bookmark that navigates to a specific part of the same webpage.
--->
