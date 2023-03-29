@@ -16,24 +16,39 @@ print("Ugibaj glavna mesta!")
 ugib = input("Ugani glavno mesto Hrvaske: ")
 preveri_odgovor(ugib, "Zagreb", tocke)
 
-1. Ce je vprasanje, ali zna delfin plavati in uporabnik odgovori z DA ali Da,
+1. Ce je vprasanje, ali zna delfin plavati in uporabnik odgovori z "DA" ali "Da" ali "da",
 ali bo v obeh primerih dobil tocke?
 2. Now let's make this program more interesting by allowing 
 the users to guess three (3) times in one question.
 """
 
+
 tocke = 0
 
 
-def preveri_odgovor(ugib, odgovor, tocke):
-    if ugib.lower() == odgovor.lower():
-        tocke = tocke + 1
-        print(f"Odgovor je pravilen!")
-    else:
-        # Ne povecas
-        print(f"Odgovor je napacen :(")
-    return tocke
+"""
+Funkcija - kaj te zanima?
+1. kaj gre not
+2. kaj gre ven
+3. kaj se notri zgodi
+"""
 
+
+def preveri_odgovor(ugib, odgovor, tocke):
+    while True:
+        if ugib.lower() == odgovor.lower():
+            tocke = tocke + 1
+            print(f"Odgovor je pravilen!")
+            return tocke
+        else:
+            # Ne povecas
+            print(f"Odgovor je napacen :(")
+            ugib = input("ponovno ugibaj")
+            # SKOK
+
+
+# print = "besedilo za sprintat"
+# print()
 
 print("Ugibaj glavna mesta!")
 ugib = input("Ugani glavno mesto Hrvaske: ")
