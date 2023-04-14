@@ -10,3 +10,8 @@ Day2 (10.3.)
 Day3 (24.3.)
 - HTML Links, Images, Picture, Gifs, Bookmarks (multi page)
 - HTML Image as link, Mail to, Tel, Image Maps (skip)
+
+-Day4 (14.4.)
+- HTML do konca overview
+- CSS in JS overview
+
