@@ -42,13 +42,28 @@ ki je hkrati veckratnik stevila 5.
 5. Napisi funkcijo, ki dobi seznam 5 vrst sadja in vrne nakljucno sadje.
 """
 
+
+def random_fruit(fruits):
+    return random.choice(fruits)
+
+
 """
 6. Napisi funkcijo, ki dobi seznam 5 vrst zivali in vrne nakljucno zival.
 """
 
+
+def random_animal(animals):
+    return random.choice(animals)
+
+
 """
 7. Ali si za zgornji 2 nalogi res potreboval 2 posebni funkciji, ali lahko kaj od njiju recikliras?
 """
+
+
+def random_item(items):
+    return random.choice(items)
+
 
 """
 8. Uporabi funkcijo random.choice() na dveh primerih in jih zapisi spodaj.
